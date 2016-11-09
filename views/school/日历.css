@@ -1,0 +1,388 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.Calendar {
+    font-family: Verdana;
+    font-size: 12px;
+    background-color: #ffffff;
+    background-size: cover;
+    text-align: left;
+    margin: 10px auto;
+    width: 90%;
+    height: 650px;
+    line-height: 1.5em;
+    border: 1px solid #ffffff;
+    color: gray;
+    font-weight: bold;
+
+}
+.Calendar a {
+    color: #ffffff;
+}
+.Calendar table {
+    width: 100%;
+    border: 1px;
+    border-collapse: collapse;
+
+}
+.Calendar table thead {
+    color:gray;
+
+}
+.Calendar table tr {
+    height: 90px;
+}
+.Calendar table td {
+    border: 5px solid gainsboro;
+    font-size: 25px;
+    padding: 1px;
+
+}
+.Calendar table tr.tou {
+    height: 40px;
+    text-align: center;
+}
+.biaodan{
+    background-color: deepskyblue;
+    padding-top: 20px;
+}
+#sp{
+    float: left;
+    background-color: deepskyblue;
+    color: #ffffff;
+    margin-left: 30px;
+    font-size: 20px;
+}
+#sp:hover{
+    cursor: pointer;
+    color: darkviolet;
+}
+#idCalendarPre {
+    cursor: pointer;
+    float: left;
+    padding-left: 400px;
+    color: #ffffff;
+    font-size: 20px;
+}
+#idCalendarPre:hover{
+    color: darkviolet;
+}
+#toyear {
+    color: #ffffff;
+    font-size: 29px;
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+#idCalendarNext {
+    cursor: pointer;
+    float: right;
+    padding-right: 400px;
+    color: #ffffff;
+    font-size: 20px;
+}
+#idCalendarNext:hover{
+    color: darkviolet;
+}
+#idCalendar {
+    margin-top: 50px;
+}
+#idCalendar td.onToday {
+//今天的颜色
+font-weight: bold;
+    color: red;
+
+}
+#idCalendar td.onSelect {
+//要选择的颜色
+font-weight: bold;
+    color: blue;
+}
+.AAA{
+    background-color: #ffffff;
+}
+#idCalendar tr {
+    cursor: pointer;
+}
+#idCalendar tr :hover{
+    cursor: pointer;
+    color: coral;
+}
+.biaodan{
+    height: 60px;
+}
+.Calendar{
+    background-image: url("img/11.jpg");
+    background-size: cover;
+}
+
+.nian{
+    font-family: Verdana;
+    font-size: 12px;
+    text-align: left;
+    margin:100px auto;
+    width: 50%;
+    height:  420px;
+    line-height: 1.5em;
+    border: 1px solid #ffffff;
+    color: gray;
+    font-weight: bold;
+}
+
+.nian1{
+    background-color: deepskyblue;
+    padding-top: 20px;
+    height: 60px;
+}
+#foryear{
+    color: #ffffff;
+    font-size: 29px;
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+#idCalendarPre1{
+    cursor: pointer;
+    float: left;
+    padding-left: 200px;
+    color: #ffffff;
+    font-size: 20px;
+}
+#idCalendarPre1:hover{
+    color: darkviolet;
+}
+#idCalendarNext1{
+    cursor: pointer;
+    float: right;
+    padding-right: 200px;
+    color: #ffffff;
+    font-size: 20px;
+}
+#idCalendarNext1:hover{
+    color: darkviolet;
+}
+.nian table tr {
+    height: 90px;
+}
+.nian table td {
+    border: 5px solid gainsboro;
+    font-size: 25px;
+    padding: 1px;
+    width: 240px;
+
+}
+#idCalendar1 tr {
+    cursor: pointer;
+    background-color: lightyellow;
+    color: gray;
+}
+#idCalendar1 tr :hover{
+    cursor: pointer;
+    color: coral;
+}
+.tian{
+    font-family: Verdana;
+    font-size: 12px;
+    background-color: #ffffff;
+    text-align: left;
+    margin:100px auto;
+    width: 50%;
+    height:  470px;
+    line-height: 1.5em;
+    border: 1px solid #ffffff;
+    color: gray;
+    font-weight: bold;
+}
+.tian1{
+    background-color: deepskyblue;
+    padding-top: 20px;
+    height: 60px;
+}
+#formonth{
+    color: #ffffff;
+    font-size: 29px;
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+.tian table tr {
+    height: 90px;
+}
+/*.tian table td {*/
+/*border: 5px solid gainsboro;*/
+/*font-size: 25px;*/
+/*padding: 1px;*/
+/*width: 500px;*/
+
+/*}*/
+#idCalendar2 tr {
+    cursor: pointer;
+}
+.td1{
+    border: 5px solid gainsboro;
+    font-size: 25px;
+    padding: 1px;
+    width: 150px;
+    text-align: center;
+}
+#sx1{
+    border: 5px solid gainsboro;
+    font-size: 25px;
+    padding: 1px;
+    width: 550px;
+    height: 200px;
+}
+#sx2{
+    border: 5px solid gainsboro;
+    font-size: 25px;
+    padding: 1px;
+    width: 550px;
+    height: 200px;
+}
+#return{
+    cursor: pointer;
+    float: right;
+    padding-right: 20px;
+    color: #ffffff;
+    font-size: 20px;
+
+}
+#return:hover{
+    color: darkviolet;
+}
+
+#p1{
+    padding-bottom: 10px;
+    height: 40px;
+    width: 30px;
+}
+
+#p2{
+
+    height: 40px;
+    width: 40px;
+}
+#p3{
+    margin-bottom: 5px;
+    height: 40px;
+    width: 40px;
+}
+#p4{
+    margin-bottom: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+#p5{
+    width:60px;
+    height:70px;
+    margin: 0px;
+    padding:0px;
+    align-content: inherit;
+}
+#p6{
+    height: 50px;
+    width: 50px;
+    float: right;
+}
+#p7{
+    height: 40px;
+    width: 40px;
+    padding-bottom: 5px;
+}
+#p8{
+
+    height: 40px;
+    width: 40px;
+    padding-bottom: 5px;
+}
+#return1{
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.zhou{
+    font-family: Verdana;
+    font-size: 12px;
+    background-color: #ffffff;
+    text-align: left;
+    margin:50px auto;
+    width: 90%;
+    height: 620px;
+    line-height: 1.5em;
+    border: 1px solid #ffffff;
+    color: gray;
+    font-weight: bold;
+}
+
+.zhou table tr {
+    height: 180px;
+}
+.zhou table td {
+    border: 5px solid gainsboro;
+    font-size: 25px;
+    padding: 1px;
+    width: 240px;
+
+}
+.zhou tr .td3{
+    border: 5px solid gainsboro;
+    font-size: 30px;
+    padding: 1px;
+    width: 200px;
+    height: 80px;
+    padding-left: 30px;
+
+}
+.zhou tr span{
+    font-size: 40px;
+    padding-left: 15px;
+}
+.zhou1{
+    background-color: deepskyblue;
+    padding-top: 4px;
+    padding-bottom: 30px;
+    height: 70px;
+}
+#forzhou {
+    color: #ffffff;
+    font-size: 29px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left:20px;
+    font-weight: bold;
+}
+.in{
+    margin-top: 20px;
+    height: 200px;
+    width: 390px;
+
+}
+.job{
+    font-size: 12px;
+    text-align: left;
+    margin:100px auto;
+    width: 50% ;
+    height: 540px;
+    line-height: 1.5em;
+    color: #222222;
+    font-weight: bold;
+    background-size: cover;
+    background:rgba(0,0,0,0);
+}
+.job  tr {
+    padding-top: 20px;
+    height: 100px;
+}
+.job hr{
+    border: 1px solid ;
+}
+#in1,#in2,#in3{
+    width: 60px;
+}
+#in4,#in5{
+    width: 60px;
+}
